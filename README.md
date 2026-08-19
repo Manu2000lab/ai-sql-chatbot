@@ -36,7 +36,11 @@ This mirrors a real concern in production AI systems — giving a language model
 
 1. Clone this repo and install dependencies:
    ```
-   pip install -r requirements.txt
+   pip install  google-genai
+               psycopg2-binary
+               streamlit
+               pandas
+ 
    ```
 2. Get a free Gemini API key from [Google AI Studio](https://aistudio.google.com)
 3. Set up a PostgreSQL database using the schema and data from the [CRM Sales Analytics project](../crm-sales-analytics)
